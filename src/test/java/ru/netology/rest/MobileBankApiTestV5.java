@@ -24,5 +24,6 @@ class MobileBankApiTestV5 {
           .contentType(ContentType.JSON)
           .body("every{ it.balance >= 0 }", is(true))
       ;
+
     }
 }
